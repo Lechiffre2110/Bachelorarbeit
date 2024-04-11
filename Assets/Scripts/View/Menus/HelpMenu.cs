@@ -18,7 +18,7 @@ public class HelpMenu : MonoBehaviour, IMenu
     [SerializeField] private GameObject _userChatMessagePrefab;
     [SerializeField] private GameObject _assistantChatMessagePrefab;
     [SerializeField] private GameObject _inputField; //There is an input field inside here
-    private const string _gptAssistantID = "asst_6njlLgpATyxucc7nnm6PVmkB"; //change assistant to use gpt-4 
+    // private const string _gptAssistantID = "asst_6njlLgpATyxucc7nnm6PVmkB"; //change assistant to use gpt-4 
     private const string _apiKey = "";
     private HttpClient _client;
 

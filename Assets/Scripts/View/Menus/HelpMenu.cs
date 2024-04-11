@@ -19,7 +19,7 @@ public class HelpMenu : MonoBehaviour, IMenu
     [SerializeField] private GameObject _assistantChatMessagePrefab;
     [SerializeField] private GameObject _inputField; //There is an input field inside here
     private const string _gptAssistantID = "asst_6njlLgpATyxucc7nnm6PVmkB"; //change assistant to use gpt-4 
-    private const string _apiKey = "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"; //TODO: remove this from code or add to .env
+    private const string _apiKey = "";
     private HttpClient _client;
 
     private string _threadID;
